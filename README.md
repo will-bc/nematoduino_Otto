@@ -1,14 +1,10 @@
+
 <p align="center"><img src="/images/nematoduino.gif"></p>
 <p align="center"><i>For a longer duration clip, click here: https://youtu.be/u406m-v4Y3Y</i>.</p>
 
-## Update
-
-Revision 2 of nematoduino has been released! This version includes a number of bug fixes, but also some important architectural changes to make the project more accessible to hobbyists. In order of largest impact to new users, here are the biggest differences:
-
-#### Preferred Robot Platform
-The [AlphaBot2-Ar](https://www.waveshare.com/wiki/AlphaBot2-Ar) is now the preferred robotics platform for nematoduino, and the code is written to run immediately "out of the box" on this hardware. The AlphaBot2-Ar was chosen because it is cheap (~$60 for the version without an Arduino board), easy to assemble with only a screwdriver, and readily available from multiple online retailers.
-
-That said, nematoduino is easy to port to other two wheeled robot platforms, and the source code in this repository should comprise a relatively straight-forward template to help intermediate Arduino enthusiasts adapt the software to their robot of choice.
+ Robot Platform
+ 
+C. Elegans applied to Otto robot.
 
 #### Arduino Library
 The `Nematoduino_Library` folder in this directory contains the nematoduino Arduino library. This library provides a simple interface to the simulated worm's biological state through the `.getLeftMuscle()` and `.getRightMuscle()` methods, allowing hobbyists to potentially bring C. elegans-on-an-Arduino to a variety of different contexts.
