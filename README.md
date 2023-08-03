@@ -4,7 +4,7 @@
 
  Robot Platform
  
-C. Elegans applied to Otto robot.
+C. Elegans applied to [Otto](https://www.ottodiy.com/software) robot.
 
 #### Arduino Library
 The `Nematoduino_Library` folder in this directory contains the nematoduino Arduino library. This library provides a simple interface to the simulated worm's biological state through the `.getLeftMuscle()` and `.getRightMuscle()` methods, allowing hobbyists to potentially bring C. elegans-on-an-Arduino to a variety of different contexts.
